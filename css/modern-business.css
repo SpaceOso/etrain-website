@@ -1,0 +1,69 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.home-icon{
+  font-size: 80px;
+}
+
+.home-icon-parent{
+  display: flex;
+  justify-content: center;
+}
+
+.home-icon-parent h1{
+  color: #3c3c3c;
+}
+
+.home-icon{
+  color: #264377;
+}
+
+.home-header{
+  color: #8c0006;
+}
+
+.etrain-jumbo{
+  display: flex;
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 4rem;
+  min-height: 300px;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbo-text{
+  width: 80%;
+}
+
+.default-text{
+  font-size: 1.2rem;
+  color: #666;
+}
