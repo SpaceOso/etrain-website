@@ -67,3 +67,39 @@ body {
   font-size: 1.2rem;
   color: #666;
 }
+
+.formula-parent{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formula-item{
+  text-align: center;
+}
+.formula-math-symbol{
+  align-self: center;
+  font-size: 40px;
+}
+
+.formula-math-symbol,
+.formula-item{
+  font-weight: bold;
+  color: #8c0006;
+}
+
+
+.formula-item img{
+  margin: 0;
+  max-height: 170px;
+  /* display: block; */
+}
+
+.formula-list{
+  list-style-type: none;
+}
+
+.formula-list li:before{
+  content: "\2714\0020";
+  position: absolute;
+  left: 40px;
+}
