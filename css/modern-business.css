@@ -5,18 +5,26 @@
  */
 
 body {
-  padding-top: 54px;
-  font-family: 'Lato', sans-serif;
+  /*padding-top: 54px;*/
+  font-family: 'Roboto', sans-serif;
+  /* Keyword values */
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    /*padding-top: 56px;*/
   }
 }
 
 .carousel-item {
 
+}
+
+.nav-logo img{
+  max-width: 396px;
 }
 
 .portfolio-item {
@@ -29,7 +37,7 @@ body {
 
 .home-icon-parent{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .home-icon-parent h1{
@@ -46,12 +54,12 @@ body {
 
 .etrain-jumbo{
   display: flex;
-  height: 65vh;
+  /*height: 65vh;*/
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-size: 4rem;
-  min-height: 300px;
+  font-size: 3rem;
+  min-height: 460px;
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -87,6 +95,9 @@ body {
   color: #8c0006;
 }
 
+nav{
+  height: 112px!important;
+}
 
 .formula-item img{
   margin: 0;
@@ -102,4 +113,134 @@ body {
   content: "\2714\0020";
   position: absolute;
   left: 40px;
+}
+
+.footer-nav{
+  width: 100%;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.footer-nav li{
+  display: inline-block;
+  font-weight: bold;
+  color: #8c0006!important;
+  margin-right: 10%;
+}
+
+.footer-nav a{
+  color: #8c0006!important;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light,
+.nav-color{
+  color: #8c0006 !important;
+  /*font-weight: bold;*/
+}
+
+.nav-color a:visited{
+  color: #8c0006;
+}
+
+.nav-bg{
+  background-color: #c6c6c6;
+}
+
+.nav-link-size{
+  font-size: 18px !important;
+}
+
+.nav-flex{
+  display: flex;
+}
+.nav-contact{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  align-items: center;
+}
+
+.nav-contact .nav-icon{
+  margin-right: 15px;
+  font-size: 28px;
+}
+
+#transition-img {
+  width: 570px;
+  height: 400px;
+  background-color: #000000;
+  background-image: url("../img/code-patient-01.jpg");
+  /*background: no-repeat center center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 1s linear;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.home-icons{
+  /*margin: 10px;*/
+}
+
+@media (max-width: 1194px) {
+  nav{
+    height: auto;
+  }
+  .nav-logo img {
+    max-width: 291px;
+  }
+  .navbar{
+    height: auto!important;
+  }
+}
+
+@media(max-width: 819px){
+  .home-icon{
+    font-size: 57px;
+  }
+
+  .home-icons h1{
+    font-size: 1.6rem;
+  }
+}
+
+@media(max-width: 728px) {
+  .nav-contact .nav-icon {
+    margin-right: 7px;
+    font-size: 21px;
+  }
+
+  #tunnel-vid{
+    width: 100%;
+  }
+
+  #transition-img{
+    width: 100%;
+    background: no-repeat center center;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 559px){
+  .home-icon-parent{
+    justify-content: space-around;
+  }
+
+  .home-icons{
+    margin: 15px;
+  }
+}
+
+@media (max-width: 524px){
+  .nav-logo img {
+    max-width: 191px;
+  }
 }
