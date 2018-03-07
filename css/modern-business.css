@@ -24,7 +24,7 @@ body {
 }
 
 .nav-logo img{
-  max-width: 396px;
+  width: 396px;
 }
 
 .portfolio-item {
@@ -144,7 +144,7 @@ nav{
 }
 
 .nav-bg{
-  background-color: #c6c6c6;
+  background-color: #ececec;
 }
 
 .nav-link-size{
@@ -188,6 +188,10 @@ nav{
 
 .home-icons{
   /*margin: 10px;*/
+}
+
+.services-img-text{
+  margin-top: 10px;
 }
 
 @media (max-width: 1194px) {
@@ -242,5 +246,11 @@ nav{
 @media (max-width: 524px){
   .nav-logo img {
     max-width: 191px;
+  }
+}
+
+@media (max-width: 400px){
+  .nav-contact{
+    display: none;
   }
 }

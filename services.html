@@ -15,47 +15,71 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 </head>
 
 <body>
 
 <!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">eTrain etc.</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="services.html">Products & Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="safety-roi.html">Safety & ROI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
+<nav class="navbar navbar-expand-lg navbar-light  nav-bg nav-color">
+    <div class="container nav-flex">
+        <div>
+            <a class="nav-logo" href="index.html">
+                <img src="./img/etrain-logo.svg" alt="etrain logo">
+            </a>
         </div>
+        <div class="align-right">
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav-link-size active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="services.html">Products & Services</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="safety-roi.html">Safety & ROI</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-contact">
+                <div class="nav-icon">
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div>
+                    1-800-555-1234
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
 </nav>
-<!-- Page Content -->
 
 <!-- Image Header -->
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="etrain-jumbo" role="listbox" style="background-image: url('./img/hero_dynamic.jpg')">
+        <div class="etrain-jumbo" role="listbox" style="background-image: url('./img/tray.png')">
             <p class="jumbo-text">Comprehensive Solutions Delivered Quickly</p>
         </div>
     </div>
@@ -69,19 +93,15 @@
     <p class="my-4 default-text">With a wide range of services backed by a proven team, eTrain etc works with you to
         create state-of-the-art training and education that maximize resources and optimize outcomes. </p>
 
-    <div class="row text-center home-icon-parent">
-
-    </div>
-
     <!--spacer-->
-    <div class="col-xs-12" style="height:50px;"></div>
+    <!--<div class="col-xs-12" style="height:50px;"></div>-->
 
     <!--Educational Simulations-->
     <div class="row">
         <div class="col-lg-6">
             <h2 class="home-header">Always on track with your schedule</h2>
-            <img class="img-fluid rounded" src="./img/mobile.jpg" alt="">
-            <p class="default-text">Busy schedule? Use your smartphone or tablet for
+            <img class="img-fluid rounded" src="./img/mobile.jpg" alt="mobile capabilities image">
+            <p class="default-text services-img-text">Busy schedule? Use your smartphone or tablet for
                 on-the-go eTraining.</p>
             <ul class="default-text">
                 <li>Android & iOS Compatible</li>
@@ -94,8 +114,8 @@
             <h2 class="home-header">
                 Make the connection with eTrain
             </h2>
-            <img class="img-fluid rounded" src="./img/web.jpg" alt="">
-            <p class="default-text">Say goodbye to training schedule conflicts with 24/7 online access that is
+            <img class="img-fluid rounded" src="./img/web.jpg" alt="web capabilities image">
+            <p class="default-text services-img-text">Say goodbye to training schedule conflicts with 24/7 online access that is
                 convenient for everyone.</p>
             <ul class="default-text">
                 <li>Full Range of Premier Interactive eTraining</li>
@@ -117,8 +137,8 @@
             <h2 class="home-header">
                 The next generation of training has arrived.
             </h2>
-            <img class="img-fluid rounded" src="./img/vr.jpg" alt="">
-            <p class="default-text">
+            <img class="img-fluid rounded" src="./img/vr.jpg" alt="vr capabilities image">
+            <p class="default-text services-img-text">
                 Fully experience every captivating detail with state-of-the-art Virtual and
                 Augmented Reality.
             </p>
@@ -142,8 +162,8 @@
             <h2 class="home-header">
                 First class graphics with express delivery
             </h2>
-            <img class="img-fluid rounded" src="./img/library.jpg" alt="">
-            <p class="default-text">
+            <img class="img-fluid rounded" src="./img/library.jpg" alt="library of products image">
+            <p class="default-text services-img-text">
                 Our vast library of characters, environments, and equipment is easily customized to suit your unique
                 needs, enabling rapid project development and delivery.
             </p>
@@ -189,12 +209,12 @@
 
 
 <!-- Footer -->
-<footer class="py-5 bg-dark nav-color">
+<footer class="py-5 nav-bg">
     <div class="container">
 
         <ul class="footer-nav">
             <li>
-                <a class="" href="about.html">Home</a>
+                <a class="" href="index.html">Home</a>
             </li>
             <li>
                 <a href="services.html">Products & Services</a>
@@ -209,7 +229,7 @@
                 <a href="contact.html">Contact Us</a>
             </li>
         </ul>
-        <p class="m-0 text-center text-white">Copyright &copy; eTrain 2018</p>
+        <p class="m-0 text-center">Copyright &copy; eTrain 2018</p>
     </div>
 
     <!-- /.container -->

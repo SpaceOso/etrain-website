@@ -15,60 +15,73 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 </head>
 
 <body>
 
 <!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">eTrain etc.</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Products & Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="safety-roi.html">Safety & ROI</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
+<nav class="navbar navbar-expand-lg navbar-light  nav-bg nav-color">
+    <div class="container nav-flex">
+        <div>
+            <a class="nav-logo" href="index.html">
+                <img src="./img/etrain-logo.svg" alt="etrain logo">
+            </a>
         </div>
+        <div class="align-right">
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav-link-size active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="services.html">Products & Services</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="safety-roi.html">Safety & ROI</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item nav-link-size">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-contact">
+                <div class="nav-icon">
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div>
+                    1-800-555-1234
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
 </nav>
-<!-- Page Content -->
 
 <!-- Image Header -->
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="etrain-jumbo" role="listbox" style="background-image: url('./img/hero.jpg')">
-            <!-- Slide One - Set the background image for this slide in the line below -->
-            <!--<div class="carousel-caption d-none d-md-block">-->
             <p class="jumbo-text">We leverage technology to rapidly deliver solutions that work for you</p>
-            <!--</div>-->
         </div>
-        <!--<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">-->
-            <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-            <!--<span class="sr-only">Previous</span>-->
-        <!--</a>-->
-        <!--<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">-->
-            <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-            <!--<span class="sr-only">Next</span>-->
-        <!--</a>-->
     </div>
 </header>
 <!-- /.container -->
@@ -122,12 +135,12 @@
 
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer class="py-5 nav-bg">
     <div class="container">
 
         <ul class="footer-nav">
             <li>
-                <a href="about.html">Home</a>
+                <a class="" href="index.html">Home</a>
             </li>
             <li>
                 <a href="services.html">Products & Services</a>
@@ -142,13 +155,11 @@
                 <a href="contact.html">Contact Us</a>
             </li>
         </ul>
-        <p class="m-0 text-center text-white">Copyright &copy; eTrain 2018</p>
+        <p class="m-0 text-center">Copyright &copy; eTrain 2018</p>
     </div>
-
 
     <!-- /.container -->
 </footer>
-
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
