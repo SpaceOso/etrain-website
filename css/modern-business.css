@@ -19,8 +19,12 @@ body {
   }
 }
 
-.carousel-item {
+a{
+  color: #8c0006!important;
+}
 
+.bold{
+  font-weight: bold;
 }
 
 .nav-logo img{
@@ -48,6 +52,10 @@ body {
   color: #264377;
 }
 
+.grey{
+  color: #666;
+}
+
 .home-header{
   color: #8c0006;
 }
@@ -69,10 +77,11 @@ body {
 
 .jumbo-text{
   width: 80%;
+  text-align: center;
 }
 
 .default-text{
-  font-size: 1.2rem;
+  font-size: 21px;
   color: #666;
 }
 
@@ -107,12 +116,17 @@ nav{
 
 .formula-list{
   list-style-type: none;
+  padding: 0;
+}
+
+.formula-list li{
+  padding-left: 18px;
 }
 
 .formula-list li:before{
   content: "\2714\0020";
   position: absolute;
-  left: 40px;
+  left: 17px;
 }
 
 .footer-nav{
@@ -153,6 +167,9 @@ nav{
 
 .nav-flex{
   display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .nav-contact{
   display: flex;
@@ -164,6 +181,12 @@ nav{
 .nav-contact .nav-icon{
   margin-right: 15px;
   font-size: 28px;
+  color: #8c0006;
+}
+.nav-icon a{
+  overflow: hidden;
+  color: #8c0006;
+  text-decoration: none;
 }
 
 #transition-img {
