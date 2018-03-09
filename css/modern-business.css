@@ -217,6 +217,18 @@ nav{
   margin-top: 10px;
 }
 
+.nav-item{
+  font-weight: bold!important;
+}
+
+.nav-icon a:hover{
+  color: #0c5460!important;
+}
+
+#nav-phone{
+  font-weight: bold;
+}
+
 @media (max-width: 1194px) {
   nav{
     height: auto;
@@ -226,6 +238,15 @@ nav{
   }
   .navbar{
     height: auto!important;
+  }
+}
+
+@media(max-width: 845px){
+  .formula-parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: auto;
   }
 }
 
