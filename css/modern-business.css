@@ -217,6 +217,60 @@ nav{
   margin-top: 10px;
 }
 
+.nav-item{
+  font-weight: bold!important;
+}
+
+.nav-icon a:hover{
+  color: #0c5460!important;
+}
+
+#nav-phone{
+  font-weight: bold;
+}
+
+.interactive-icon{
+  margin: 0 auto;
+  cursor: pointer;
+  width: 118px;
+  height: 118px;
+  background-image: url("../img/icon-mobile.png") ;
+  background-size: auto auto;
+}
+
+#web-icon {
+  background-image: url("../img/icon-clouds.png");
+
+}
+
+#vr-icon {
+  background-image: url("../img/icon-headset.png");
+
+}
+
+#library-icon {
+  background-image: url("../img/icon-library.png");
+}
+
+#services-icon {
+  background-image: url("../img/icon-services.png");
+}
+
+
+.product-info{
+  border: 3px solid #8c0006;
+  border-radius: 25px;
+}
+
+.extraPad{
+  margin: 5px;
+  padding: 10px;
+}
+
+.mobile-view{
+  display: none;
+}
+
 @media (max-width: 1194px) {
   nav{
     height: auto;
@@ -226,6 +280,15 @@ nav{
   }
   .navbar{
     height: auto!important;
+  }
+}
+
+@media(max-width: 845px){
+  .formula-parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: auto;
   }
 }
 
