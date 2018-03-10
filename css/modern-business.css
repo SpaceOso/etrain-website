@@ -104,8 +104,27 @@ a{
   color: #8c0006;
 }
 
+.brand-color{
+  color: #8c0006;
+}
+
+#btn-container-full{
+  justify-content: space-between;
+}
+
 nav{
   height: 112px!important;
+}
+
+.sub-header{
+  color: #5a5a5a;
+  margin: 0;
+  font-size: 22px;
+}
+
+.product-image img {
+  /* float: right; */
+  width: 100%;
 }
 
 .formula-item img{
@@ -270,7 +289,13 @@ nav{
 .mobile-view{
   display: none;
 }
+.social-media {
+  font-size: 50px;
+}
 
+.social-media a {
+  text-decoration: none;
+}
 @media (max-width: 1194px) {
   nav{
     height: auto;
@@ -280,6 +305,20 @@ nav{
   }
   .navbar{
     height: auto!important;
+  }
+}
+
+@media (max-width: 995px) {
+  #btn-container-full{
+    display: none;
+  }
+
+  #info-container{
+    display: none;
+  }
+
+  .mobile-view{
+    display: block;
   }
 }
 

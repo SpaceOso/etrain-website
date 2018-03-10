@@ -2,7 +2,7 @@ var productInfo = {
 	mobile: {
 		header: "Always on track with your schedule",
 		subHeader: "Busy schedule? Use your smartphone or\n" +
-        "tablet for <br>on-the-go eTraining.",
+        "tablet for Son-the-go eTraining.",
 		info: "" +
 		"<ul>" +
 		"<li>Android & iOS Compatible</li>" +
@@ -10,12 +10,12 @@ var productInfo = {
 		"<li>Data Integration Capabilities</li>" +
 		"<li>Full Range of Apps, Games, and Interactive Courses</li>" +
 		"</ul>" +
-		"<a href='./contactus.html'>Contact us!</a>",
+		"<a href='./contact.html'>Contact us!</a>",
 		img: './img/mobile.jpg',
 		link: "window.open('./advantage.html');"
 	},
 	web: {
-		header: "Make the connection<br> with L-Train",
+		header: "Make the connection<br> with eTrain",
 		subHeader: "Say goodbye to training schedule conflicts\n" +
         "with 24/7 online access that is convenient for everyone.",
 		info: "" +
@@ -27,7 +27,7 @@ var productInfo = {
 		"<li>Data Visualization</li>" +
 		"<li>Simulation Debriefing</li>" +
 		"</ul>" +
-		"<a href='./contactus.html'>Contact us!</a>",
+		"<a href='./contact.html'>Contact us!</a>",
 		img: './img/web.jpg',
 		link: "window.open('./advantage.html');"
 	},
@@ -51,7 +51,7 @@ var productInfo = {
 		"<li>All Forms of AR/VR</li>" +
 		"<li>Custom 3D Development</li>" +
 		"</ul>" +
-		"<a href='./contactus.html'>Contact us!</a>",
+		"<a href='./contact.html'>Contact us!</a>",
 		img: './img/vr.jpg',
 		link: "window.open('./advantage.html');"
 	},
@@ -66,7 +66,7 @@ var productInfo = {
 		"<li>Elite Graphic Design Artistry</li>" +
 		"<li>Unlimited Customization Possibilities</li>" +
 		"</ul>" +
-		"<a href='./contactus.html'>Contact us!</a>",
+		"<a href='./contact.html'>Contact us!</a>",
 		img: './img/library.jpg',
 		link: "window.open('./advantage.html');"
 	},
@@ -86,7 +86,7 @@ var productInfo = {
 		"<li>Project Management</li>" +
 		"<li>Usability Testing &amp; Quality Assurance</li>" +
 		"</ul>" +
-		"<a href='./contactus.html'>Contact us!</a>",
+		"<a href='./contact.html'>Contact us!</a>",
 		img: './img/services.jpg',
 		link: "window.open('./services.html');"
 	}
