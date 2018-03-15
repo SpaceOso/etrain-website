@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	var $blueBar = $('');
-	var currentBtn = '#product-mobile';
+	var currentBtn = '#mobile-icon';
 	var infoName = 'mobile';
 	
 	var $btnContainer = $('#btn-container-full');
@@ -17,7 +17,7 @@ $(document).ready(function () {
 	
 	function hideOldInfo(){
 		$(currentBtn + " .blue-bar").hide();
-		$(currentBtn + " .gray-text").removeClass('selected-product');
+		$(currentBtn).removeClass('selected-product');
 	}
 	
 	function displayInfo(infoName){
@@ -35,33 +35,33 @@ $(document).ready(function () {
 		hideOldInfo();
 		currentBtn = targetParent;
 		$(currentBtn + " .blue-bar").show();
-		$(currentBtn + " .gray-text").addClass('selected-product');
+		$(currentBtn).addClass('selected-product');
 		displayInfo(infoName);
 	}
 	
 	
 	$('#product-mobile').on('click', function () {
-		initProductView('#product-mobile', 'mobile');
+		initProductView('#mobile-icon', 'mobile');
 	});
 	
 	$('#product-web').on('click', function () {
-		initProductView('#product-web', 'web');
+		initProductView('#web-icon', 'web');
 	});
 	
 	$('#product-vr').on('click', function () {
-		initProductView('#product-vr', 'vr');
+		initProductView('#vr-icon', 'vr');
 	});
 	
 	$('#product-library').on('click', function () {
-		initProductView('#product-library', 'library');
+		initProductView('#library-icon', 'library');
 	});
 	
 	$('#product-services').on('click', function () {
-		initProductView('#product-services', 'services');
+		initProductView('#services-icon', 'services');
 	});
 	
 	function init() {
-		var storageInfo = sessionStorage.getItem('mssinfocontainerdata');
+		var storageInfo = sessionStorage.getItem('etraindata');
 		
 		var mobileView = false;
 		//todo need to check to see if we are in mobile view
@@ -72,14 +72,14 @@ $(document).ready(function () {
 		//if there is data saved load it
 		if(storageInfo){
 			if(!mobileView){
-				currentBtn = '#product-' + storageInfo;
+				currentBtn = '#' + storageInfo +'-icon';
 			} else {
 				currentBtn = storageInfo + '-header';
 			}
 			infoName = storageInfo;
 			initProductView(currentBtn, infoName);
 		} else {
-			var idTag = '#product-mobile';
+			var idTag = '#mobile-icon';
 			
 			//if there isn't set the first button
 			if(mobileView){

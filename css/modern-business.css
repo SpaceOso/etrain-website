@@ -253,28 +253,55 @@ nav{
   cursor: pointer;
   width: 118px;
   height: 118px;
-  background-image: url("../img/icon-mobile.png") ;
+  background-image: url("../img/icon_atlas.jpg") ;
   background-size: auto auto;
 }
 
-#web-icon {
-  background-image: url("../img/icon-clouds.png");
+#mobile-icon{
+  background-position: -118px 0;
+}
 
+
+#mobile-icon.selected-product,
+#mobile-icon:hover{
+  background-position: -118px 118px;
+}
+
+#web-icon {
+  background-position: -354px 0;
+}
+
+#web-icon.selected-product,
+#web-icon:hover{
+  background-position: -354px 118px;
 }
 
 #vr-icon {
-  background-image: url("../img/icon-headset.png");
+  background-position: 0 0;
+}
 
+#vr-icon.selected-product,
+#vr-icon:hover{
+  background-position: 0 118px;
 }
 
 #library-icon {
-  background-image: url("../img/icon-library.png");
+  background-position: -236px 0;
+}
+
+#library-icon.selected-product,
+#library-icon:hover{
+  background-position: -236px 118px;
 }
 
 #services-icon {
-  background-image: url("../img/icon-services.png");
+  background-position: 118px 0;
 }
 
+#services-icon.selected-product,
+#services-icon:hover{
+  background-position: 118px 118px;
+}
 
 .product-info{
   border: 3px solid #8c0006;
@@ -374,7 +401,7 @@ nav{
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 577px){
   .nav-contact{
     display: none;
   }
